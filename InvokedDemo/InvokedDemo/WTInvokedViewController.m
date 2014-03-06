@@ -55,6 +55,9 @@
     [super viewDidAppear:animated];
     if (self.callBack) {
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"message" message:[NSString stringWithFormat:@"%@", self.callBack] delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+        
+        
+        
         [alertView show];
     }
 }
