@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "WTInvokedViewController.h"
+#import "MainViewController.h"
 
 @implementation AppDelegate
 
@@ -17,9 +18,13 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    WTInvokedViewController *invokedController = [[WTInvokedViewController alloc] init];
-    invokedController.callBack = [launchOptions objectForKey:@"callback"];
-    self.window.rootViewController = invokedController;
+    
+    if ([[launchOptions objectForKey:UIApplicationLaunchOptionsSourceApplicationKey] isEqualToString:@"com.hello.InvokingDemo"])
+    {
+        return YES;
+    }
+    MainViewController *mainController = [[MainViewController alloc] init];
+    self.window.rootViewController = mainController;
     return YES;
 }
 
@@ -37,6 +42,7 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
+    NSLog(@"application=%@", application);
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 
@@ -53,6 +59,7 @@
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
     NSLog(@"%@", url);
+    NSLog(@"annotation=%@,sourceApplication=%@", annotation, sourceApplication);
     if ([[url scheme] isEqualToString:@"invoked"]) {
         if ([[url host] isEqualToString:@"com.hello"]) {
             NSString *query = [url query];
@@ -63,7 +70,9 @@
                 NSArray *valueArray = [item componentsSeparatedByString:@"="];
                 [dic setValue:[valueArray objectAtIndex:1] forKey:[valueArray objectAtIndex:0]];
             }
-            [self application:application didFinishLaunchingWithOptions:dic];
+            WTInvokedViewController *invokedController = [[WTInvokedViewController alloc] init];
+            invokedController.callBack = [dic objectForKey:@"callback"];
+            self.window.rootViewController = invokedController;
         }
         return YES;
     }

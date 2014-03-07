@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/umpay/Downloads/Blog/应用间通信/InvokedDemo/InvokedDemo/WTInvokedViewController.m \
-  /Users/umpay/Downloads/Blog/应用间通信/InvokedDemo/InvokedDemo/WTInvokedViewController.h
+  /Users/umpay/Desktop/Custom-URL-Scheme/InvokedDemo/InvokedDemo/WTInvokedViewController.m \
+  /Users/umpay/Desktop/Custom-URL-Scheme/InvokedDemo/InvokedDemo/WTInvokedViewController.h

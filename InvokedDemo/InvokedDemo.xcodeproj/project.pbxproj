@@ -13,13 +13,14 @@
 		28B53E0518C84CA700D5AAB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28B53E0318C84CA700D5AAB6 /* InfoPlist.strings */; };
 		28B53E0718C84CA700D5AAB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B53E0618C84CA700D5AAB6 /* main.m */; };
 		28B53E0B18C84CA700D5AAB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B53E0A18C84CA700D5AAB6 /* AppDelegate.m */; };
-		28B53E0D18C84CA700D5AAB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B53E0C18C84CA700D5AAB6 /* Images.xcassets */; };
 		28B53E1418C84CA700D5AAB6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B53E1318C84CA700D5AAB6 /* XCTest.framework */; };
 		28B53E1518C84CA700D5AAB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B53DFA18C84CA700D5AAB6 /* Foundation.framework */; };
 		28B53E1618C84CA800D5AAB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B53DFE18C84CA700D5AAB6 /* UIKit.framework */; };
 		28B53E1E18C84CA800D5AAB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28B53E1C18C84CA800D5AAB6 /* InfoPlist.strings */; };
 		28B53E2018C84CA800D5AAB6 /* InvokedDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B53E1F18C84CA800D5AAB6 /* InvokedDemoTests.m */; };
 		28B53E2B18C84CD300D5AAB6 /* WTInvokedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B53E2A18C84CD300D5AAB6 /* WTInvokedViewController.m */; };
+		28D2A7E218C9B43E008CE1DC /* hello-invoked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28D2A7E118C9B43E008CE1DC /* hello-invoked@2x.png */; };
+		28D5840B18C973E800CC9DEC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D5840A18C973E800CC9DEC /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,6 @@
 		28B53E0818C84CA700D5AAB6 /* InvokedDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InvokedDemo-Prefix.pch"; sourceTree = "<group>"; };
 		28B53E0918C84CA700D5AAB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28B53E0A18C84CA700D5AAB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		28B53E0C18C84CA700D5AAB6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28B53E1218C84CA700D5AAB6 /* InvokedDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvokedDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B53E1318C84CA700D5AAB6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		28B53E1B18C84CA800D5AAB6 /* InvokedDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InvokedDemoTests-Info.plist"; sourceTree = "<group>"; };
@@ -51,6 +51,9 @@
 		28B53E1F18C84CA800D5AAB6 /* InvokedDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvokedDemoTests.m; sourceTree = "<group>"; };
 		28B53E2918C84CD300D5AAB6 /* WTInvokedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTInvokedViewController.h; sourceTree = "<group>"; };
 		28B53E2A18C84CD300D5AAB6 /* WTInvokedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTInvokedViewController.m; sourceTree = "<group>"; };
+		28D2A7E118C9B43E008CE1DC /* hello-invoked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hello-invoked@2x.png"; sourceTree = "<group>"; };
+		28D5840918C973E800CC9DEC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		28D5840A18C973E800CC9DEC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +115,11 @@
 			children = (
 				28B53E0918C84CA700D5AAB6 /* AppDelegate.h */,
 				28B53E0A18C84CA700D5AAB6 /* AppDelegate.m */,
-				28B53E0C18C84CA700D5AAB6 /* Images.xcassets */,
 				28B53E0118C84CA700D5AAB6 /* Supporting Files */,
 				28B53E2918C84CD300D5AAB6 /* WTInvokedViewController.h */,
 				28B53E2A18C84CD300D5AAB6 /* WTInvokedViewController.m */,
+				28D5840918C973E800CC9DEC /* MainViewController.h */,
+				28D5840A18C973E800CC9DEC /* MainViewController.m */,
 			);
 			path = InvokedDemo;
 			sourceTree = "<group>";
@@ -124,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				28B53E0218C84CA700D5AAB6 /* InvokedDemo-Info.plist */,
+				28D2A7E118C9B43E008CE1DC /* hello-invoked@2x.png */,
 				28B53E0318C84CA700D5AAB6 /* InfoPlist.strings */,
 				28B53E0618C84CA700D5AAB6 /* main.m */,
 				28B53E0818C84CA700D5AAB6 /* InvokedDemo-Prefix.pch */,
@@ -224,8 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D2A7E218C9B43E008CE1DC /* hello-invoked@2x.png in Resources */,
 				28B53E0518C84CA700D5AAB6 /* InfoPlist.strings in Resources */,
-				28B53E0D18C84CA700D5AAB6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +252,7 @@
 				28B53E0B18C84CA700D5AAB6 /* AppDelegate.m in Sources */,
 				28B53E0718C84CA700D5AAB6 /* main.m in Sources */,
 				28B53E2B18C84CD300D5AAB6 /* WTInvokedViewController.m in Sources */,
+				28D5840B18C973E800CC9DEC /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +453,7 @@
 				28B53E2518C84CA800D5AAB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28B53E2618C84CA800D5AAB6 /* Build configuration list for PBXNativeTarget "InvokedDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +462,7 @@
 				28B53E2818C84CA800D5AAB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
