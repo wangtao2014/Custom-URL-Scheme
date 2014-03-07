@@ -20,6 +20,8 @@
 		28B53E2018C84CA800D5AAB6 /* InvokedDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B53E1F18C84CA800D5AAB6 /* InvokedDemoTests.m */; };
 		28B53E2B18C84CD300D5AAB6 /* WTInvokedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B53E2A18C84CD300D5AAB6 /* WTInvokedViewController.m */; };
 		28D2A7E218C9B43E008CE1DC /* hello-invoked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28D2A7E118C9B43E008CE1DC /* hello-invoked@2x.png */; };
+		28D2A7E518C9B895008CE1DC /* second_launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 28D2A7E318C9B895008CE1DC /* second_launch.png */; };
+		28D2A7E618C9B895008CE1DC /* first_launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 28D2A7E418C9B895008CE1DC /* first_launch.png */; };
 		28D5840B18C973E800CC9DEC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D5840A18C973E800CC9DEC /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		28B53E2918C84CD300D5AAB6 /* WTInvokedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTInvokedViewController.h; sourceTree = "<group>"; };
 		28B53E2A18C84CD300D5AAB6 /* WTInvokedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTInvokedViewController.m; sourceTree = "<group>"; };
 		28D2A7E118C9B43E008CE1DC /* hello-invoked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hello-invoked@2x.png"; sourceTree = "<group>"; };
+		28D2A7E318C9B895008CE1DC /* second_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_launch.png; sourceTree = "<group>"; };
+		28D2A7E418C9B895008CE1DC /* first_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_launch.png; sourceTree = "<group>"; };
 		28D5840918C973E800CC9DEC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		28D5840A18C973E800CC9DEC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +131,8 @@
 		28B53E0118C84CA700D5AAB6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28D2A7E318C9B895008CE1DC /* second_launch.png */,
+				28D2A7E418C9B895008CE1DC /* first_launch.png */,
 				28B53E0218C84CA700D5AAB6 /* InvokedDemo-Info.plist */,
 				28D2A7E118C9B43E008CE1DC /* hello-invoked@2x.png */,
 				28B53E0318C84CA700D5AAB6 /* InfoPlist.strings */,
@@ -230,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28D2A7E218C9B43E008CE1DC /* hello-invoked@2x.png in Resources */,
+				28D2A7E618C9B895008CE1DC /* first_launch.png in Resources */,
 				28B53E0518C84CA700D5AAB6 /* InfoPlist.strings in Resources */,
+				28D2A7E518C9B895008CE1DC /* second_launch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
